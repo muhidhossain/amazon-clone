@@ -1,4 +1,3 @@
-import userEvent from '@testing-library/user-event';
 import React from 'react';
 import { useStateValue } from '../../StateProvider';
 import CheckoutProduct from '../CheckoutProduct/CheckoutProduct';
@@ -26,7 +25,6 @@ const Checkout = () => {
                                 image={item.image}
                                 price={item.price}
                                 rating={item.rating}
-                                
                             />
                         ))
                     }
